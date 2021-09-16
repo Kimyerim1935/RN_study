@@ -6,6 +6,7 @@ export default function Weather({ temp }) {
   return (
     <View style={styles.container}>
       <Text>{temp}</Text>
+      <Text>hello</Text>
     </View>
   );
 }
